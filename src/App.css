@@ -1,0 +1,41 @@
+.App {
+  height: 50rem;
+  text-align: center;
+  padding: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.App.light {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.App.dark {
+  background-color: #333;
+  color: #f5f5f5;
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  font-size: 1.8em;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.App-header.light {
+  background-color: #e3e3e3; /* Light theme navbar color */
+}
+
+.App-header.dark {
+  background-color: #444; /* Dark theme navbar color */
+}
+
+.card-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
